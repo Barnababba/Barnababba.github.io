@@ -4,16 +4,28 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About Me
+![Jere Haavisto](/assets/img/avatar.jpg){: width="300" .left }
+
+# Jere Haavisto
 
 **Cloud Security Dude. Microsoft Fanboy. ClickOps Expert.**
 
-Hi, I'm **Jere Haavisto** — a security consultant writing about Microsoft security, Azure, and everything in between.
+Hello all! My name is Jere Haavisto and this is my blog, as you can probably see from the creative naming of the site. The purpose of this site is to be a platform where I can share Microsoft Security related research and stuff.
 
-This blog is mostly about Azure & Microsoft 365 security. There might also be some Purview and Intune stuff because I'm interested in them as well. Intune especially is essential when you start to venture into Endpoint Protection and Management.
+I currently work as a Senior Security Consultant @ [Zure](https://www.zure.com/). My IT journey started professionally in 2017 when I started as an administrator doing Microsoft 365 and Intune. I gradually picked up cybersecurity along the way and now that is the stuff I do full time.
 
-All opinions here are mine and sometimes, god forbid, I might be wrong. Please correct me in the comments if so, but all the things you pick up from here, you implement at your own risk.
+I still dabble with Intune and I´m generally interested in anything in Microsoft Security & Compliance.
 
-Working as a consultant gives me the opportunity and privilege to see different environments as well as different ways of doing things. This is really valuable because I can really see different solutions to problems.
+[LinkedIn](https://www.linkedin.com/in/jerehaavisto/) &nbsp;·&nbsp; [Instagram](https://www.instagram.com/haavistojere/)
 
-Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/jerehaavisto/).
+---
+
+## Applied Skills
+
+- **Microsoft Applied Skills:** Implement retention, eDiscovery, and Communication Compliance in Microsoft Purview
+- **Microsoft Applied Skills:** Defend against cyberthreats with Microsoft Defender XDR
+- **Microsoft Applied Skills:** Implement information protection and data loss prevention by using Microsoft Purview
+
+---
+
+> All opinions here are mine and sometimes, god forbid, I might be wrong. Please correct me in the comments if so — all the things you pick up from here, you implement at your own risk.

@@ -23,9 +23,10 @@ social:
   links:
     - https://www.linkedin.com/in/jerehaavisto/
     - https://github.com/Barnababba
+    - https://www.instagram.com/haavistojere/
 
 # Avatar image path, place in /assets/img/
-avatar: "/assets/img/avatar.png"
+avatar: "/assets/img/avatar.jpg"
 
 # Site theme mode: light | dark
 # theme_mode: dark
