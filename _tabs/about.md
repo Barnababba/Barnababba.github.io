@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![Jere Haavisto](/assets/img/avatar.jpg){: width="250" style="border-radius: 50%; float: left; margin: 0 2rem 1rem 0;" }
+![Jere Haavisto](/assets/img/jere.jpg){: width="250" style="border-radius: 50%; float: left; margin: 0 2rem 1rem 0;" }
 
 # Jere Haavisto
 
