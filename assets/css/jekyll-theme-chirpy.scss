@@ -1,0 +1,155 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
+
+@import 'main';
+
+/* ============================================
+   Custom theme overrides — matching jerehaavisto.com
+   Palette:
+     Background: #000000
+     Text:       #ffffff
+     Accent:     #f23cff (headings, links, highlights)
+     Muted:      #A4A39F
+     Off-white:  #F4F2ED (content link color)
+   Font: Roboto Mono (monospace)
+   ============================================ */
+
+/* --- Font override --- */
+:root {
+  --font-family-base: 'Roboto Mono', monospace;
+  --font-family-heading: 'Roboto Mono', monospace;
+}
+
+body,
+.sidebar,
+.topbar,
+h1, h2, h3, h4, h5, h6,
+p, a, li, td, th, code, pre {
+  font-family: 'Roboto Mono', monospace !important;
+}
+
+/* --- Dark mode color overrides --- */
+[data-mode=dark] {
+  /* Backgrounds */
+  --body-bg:        #000000;
+  --global-bg:      #000000;
+  --sidebar-bg:     #000000;
+  --topbar-bg:      #000000;
+  --card-bg:        #111111;
+  --code-bg:        #1a1a1a;
+  --code-header-bg: #111111;
+  --tag-bg:         #1a1a1a;
+  --tb-odd-bg:      #0d0d0d;
+
+  /* Text */
+  --text-color:           #ffffff;
+  --text-muted-color:     #A4A39F;
+  --heading-color:        #f23cff;
+  --label-color:          #F4F2ED;
+  --blockquote-border-color: #f23cff;
+
+  /* Links */
+  --link-color:           #F4F2ED;
+  --link-underline-color: #535353;
+
+  /* Sidebar */
+  --sidebar-active-color:  #f23cff;
+  --sidebar-muted-color:   #A4A39F;
+  --sidebar-hover-bg:      #1a1a1a;
+  --nav-cursor-color:      #f23cff;
+
+  /* Topbar / search */
+  --topbar-text-color:     #ffffff;
+  --search-border-color:   #343434;
+  --search-input-bg:       #111111;
+
+  /* Borders */
+  --border-color:          #292929;
+  --btn-border-color:      #343434;
+  --post-list-item-border-color: #1a1a1a;
+
+  /* Tags & categories */
+  --tag-hover:             #f23cff;
+  --categories-border:     rgba(242, 60, 255, 0.3);
+
+  /* TOC */
+  --toc-highlight:         #f23cff;
+
+  /* Code highlight */
+  --highlight-bg-color:    #111111;
+  --highlighter-rouge-color: #f23cff;
+}
+
+/* Headings always use accent color */
+h1, h2, h3, h4, h5, h6 {
+  color: #f23cff;
+}
+
+/* Accent-colored highlights */
+a:hover,
+.post-title a:hover,
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  color: #f23cff !important;
+}
+
+/* Sidebar site title */
+.site-title a,
+.site-subtitle {
+  color: #F4F2ED;
+}
+
+/* Tag pills */
+.post-tag,
+.list-tag {
+  border-color: #f23cff !important;
+  color: #f23cff !important;
+}
+
+.post-tag:hover,
+.list-tag:hover {
+  background-color: #f23cff !important;
+  color: #000000 !important;
+}
+
+/* Category links */
+.categories .category-item a:hover,
+#panel-wrapper .post-tag:hover {
+  color: #f23cff !important;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left-color: #f23cff;
+  color: #F4F2ED;
+}
+
+/* Inline code */
+code.highlighter-rouge {
+  color: #f23cff;
+  background-color: #111111;
+}
+
+/* Active TOC entry */
+#toc-wrapper .active {
+  color: #f23cff !important;
+}
+
+/* Pagination / buttons */
+.btn.btn-outline-primary {
+  border-color: #f23cff;
+  color: #f23cff;
+}
+
+.btn.btn-outline-primary:hover {
+  background-color: #f23cff;
+  color: #000000;
+}
+
+/* Progress bar / back-to-top */
+#progress-bar,
+#back-to-top {
+  background-color: #f23cff;
+}

@@ -29,7 +29,7 @@ social:
 avatar: "/assets/img/avatar.png"
 
 # Site theme mode: light | dark
-# theme_mode: dark
+theme_mode: dark
 
 toc: true
 
