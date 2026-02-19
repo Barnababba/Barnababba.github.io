@@ -1,0 +1,110 @@
+theme: jekyll-theme-chirpy
+
+# Site settings
+lang: "en"
+timezone: Europe/Helsinki
+
+title: The Blog - Jere Haavisto
+tagline: "Security & Technology"
+description: "Personal blog by Jere Haavisto covering cybersecurity and technology."
+
+url: "https://barnababba.github.io"
+baseurl: ""
+
+github:
+  username: Barnababba
+
+# twitter:
+#   username: your_twitter_handle
+
+social:
+  name: Jere Haavisto
+  email: ""
+  links:
+    - https://github.com/Barnababba
+
+# Avatar image path, place in /assets/img/
+avatar: "/assets/img/avatar.jpg"
+
+# Site theme mode: light | dark
+# theme_mode: dark
+
+toc: true
+
+comments:
+  active: ""  # Options: disqus | utterances | giscus
+
+pwa:
+  enabled: true
+
+paginate: 10
+
+# -----------------------------------------------
+# Advanced settings (safe to leave as-is)
+# -----------------------------------------------
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      math: false
+      mermaid: false
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - README.md
+  - LICENSE
+  - "*.config.js"
+  - package*.json
+  - Gemfile.lock
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
