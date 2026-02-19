@@ -26,7 +26,7 @@ social:
     - https://www.instagram.com/haavistojere/
 
 # Avatar image path, place in /assets/img/
-avatar: "/assets/img/avatar.jpg"
+avatar: "/assets/img/avatar.png"
 
 # Site theme mode: light | dark
 # theme_mode: dark
