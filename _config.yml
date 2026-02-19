@@ -6,7 +6,7 @@ timezone: Europe/Helsinki
 
 title: The Blog - Jere Haavisto
 tagline: "Security & Technology"
-description: "Personal blog by Jere Haavisto covering cybersecurity and technology."
+description: "Blog for all things Microsoft Security and Compliance. Cloud Security Dude. Microsoft Fanboy. ClickOps Expert."
 
 url: "https://barnababba.github.io"
 baseurl: ""
@@ -21,10 +21,11 @@ social:
   name: Jere Haavisto
   email: ""
   links:
+    - https://www.linkedin.com/in/jerehaavisto/
     - https://github.com/Barnababba
 
 # Avatar image path, place in /assets/img/
-avatar: "/assets/img/avatar.jpg"
+avatar: "/assets/img/avatar.png"
 
 # Site theme mode: light | dark
 # theme_mode: dark
