@@ -4,7 +4,7 @@ date: 2025-03-19 06:55:00 +0000
 categories: [Azure, Networks]
 tags: [azure, network, paas, security, nsp, key-vault, storage]
 image:
-  path: https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/Picture1.png
+  path: /assets/img/posts/2025/03/Picture1.png
 ---
 
 Have you seen Azure environments with resources that have public access allowed or just some limitations to the IP addresses in place? Well, I have. The way to secure these PaaS resources like Storage Accounts, Key Vaults and SQL Servers for example was to put them in a virtual network, create network security groups (NSG), set up Private Endpoints...
@@ -39,27 +39,27 @@ The key thing here is the profile which defines the inbound and outbound rules t
 
 To set up the test I created some NSP-supported resources that have default networking settings (Public access enabled from all networks):
 
-![Resources](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/Picture2.png)
+![Resources](/assets/img/posts/2025/03/Picture2.png)
 
 I also have a Linux machine on the same subscription with access to all of the above resources. The managed identity of the VM has Key Vault Secrets User assigned on the Key Vault, and I´m logged in with it.
 
 Now, since all of the PaaS resources are open to the world, I need to secure them so that only my VM can access them. I create a Network Security Perimeter and associate the selected resources to it:
 
-![NSP settings](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/Picture5.png)
+![NSP settings](/assets/img/posts/2025/03/Picture5.png)
 
 I don't create inbound or outbound rules right now because of the demo, but you can. The NSP is created and you can see the resources associated with it as well as the profile assigned to them. Notice that they both are in learning mode:
 
-![NSP learning mode](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/Picture6.png)
+![NSP learning mode](/assets/img/posts/2025/03/Picture6.png)
 
 Let's change the mode to Enforced:
 
-![Enforce NSP](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/Picture7.png)
+![Enforce NSP](/assets/img/posts/2025/03/Picture7.png)
 
 After enforcing we can see that the access mode changed and the Effective public network access status changed. Now it is not possible to connect to the resource because I did not add any inbound rules on NSP creation.
 
 After adding an inbound rule with the VM's subscription scope, the VM can access the Key Vault again:
 
-![NSP works](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/Picture14.png)
+![NSP works](/assets/img/posts/2025/03/Picture14.png)
 
 ### Demo two with a Storage Account
 

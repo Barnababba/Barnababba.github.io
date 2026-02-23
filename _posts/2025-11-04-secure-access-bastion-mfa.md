@@ -4,7 +4,7 @@ date: 2025-11-04 10:58:00 +0000
 categories: [Azure, Entra ID, Networks]
 tags: [azure, bastion, mfa, phishing-resistant, conditional-access, network, vm]
 image:
-  path: https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/10/UntitledImage-1-1024x680.png
+  path: /assets/img/posts/2025/10/UntitledImage-1-1024x680.png
 ---
 
 Long time no see. I've been quite busy and it's been hard to find time to explore new things. This time, my curiosity got the best of me as my colleague from my previous employer asked a question about jump hosts in LinkedIn and I really had to carve some time to figure this thing out in Bastion.
@@ -15,7 +15,7 @@ The question was related to jump hosts and phishing resistant authentication met
 
 The way Bastion works is that it is in its own subnet that needs to have port 443 (HTTPS) allowed from the internet for connectivity. I have placed it into a hub-spoke network architecture, which is also recommended by Microsoft Cloud Adoption Framework. The hub is a place for shared components like Bastion, and the spokes can be secured in their unique ways depending on the workloads there. In this case there is just a VM in the spoke that we are connecting to.
 
-![Azure architecture](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/10/UntitledImage-1.png)
+![Azure architecture](/assets/img/posts/2025/10/UntitledImage-1.png)
 
 ### NSG Rules
 
@@ -24,9 +24,9 @@ Below are the NSG rules required:
 - Allow outbound from Bastion to VMs on ports 3389 (RDP) and 22 (SSH)
 - Allow Bastion management traffic (ports 8080, 5701) from the Gateway Manager
 
-![NSG rules 1](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/10/UntitledImage-2.png)
+![NSG rules 1](/assets/img/posts/2025/10/UntitledImage-2.png)
 
-![NSG rules 2](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/10/UntitledImage-3.png)
+![NSG rules 2](/assets/img/posts/2025/10/UntitledImage-3.png)
 
 ## Phishing Resistant MFA with Bastion
 
@@ -39,7 +39,7 @@ To use phishing resistant authentication through Bastion, you need:
 
 ### PIM Role Configuration
 
-![PIM role settings](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/11/UntitledImage.png)
+![PIM role settings](/assets/img/posts/2025/11/UntitledImage.png)
 
 Using PIM for the VM Login roles means there is no standing access. Users activate the role when needed, which creates an audit trail and limits the exposure window.
 

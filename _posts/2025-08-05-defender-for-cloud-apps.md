@@ -4,7 +4,7 @@ date: 2025-08-05 10:28:00 +0000
 categories: [AI, Defender, Endpoints]
 tags: [defender, cloud-apps, saas, shadow-it, casb, security, policy]
 image:
-  path: https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/08/UntitledImage.png
+  path: /assets/img/posts/2025/08/UntitledImage.png
 ---
 
 ## What is Defender for Cloud Apps?
@@ -21,7 +21,7 @@ It provides you with the following functionalities:
 - **App-to-app protection**
   - Extends the core threat scenarios to OAuth-enabled apps in your environment.
 
-![Cloud Apps overview](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/08/UntitledImage.png)
+![Cloud Apps overview](/assets/img/posts/2025/08/UntitledImage.png)
 
 ## Prerequisites & Licensing
 
@@ -36,9 +36,9 @@ For basic Shadow IT discovery, Defender for Endpoint integration is sufficient.
 
 Once enabled, the Cloud App Catalog shows you all discovered apps with a risk score. Below is a breakdown of ChatGPT — it has a risk number of 8 because it did not pass checks for remember password and Privacy Shield:
 
-![Discovered apps](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/08/UntitledImage-1.png)
+![Discovered apps](/assets/img/posts/2025/08/UntitledImage-1.png)
 
-![ChatGPT risk score](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/08/UntitledImage-2.png)
+![ChatGPT risk score](/assets/img/posts/2025/08/UntitledImage-2.png)
 
 This data can be used to base policies on. For example, I would not like to allow any generative AI apps with a risk score below 6, so I could create an app discovery policy and tag those apps as unsanctioned.
 
@@ -49,7 +49,7 @@ A powerful functionality in Defender for Cloud Apps is using policies. You can:
 - Set apps as **Sanctioned** or **Unsanctioned**
 - Block access to unsanctioned apps through Defender for Endpoint integration
 
-![App Discovery policy](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/08/UntitledImage-3.png)
+![App Discovery policy](/assets/img/posts/2025/08/UntitledImage-3.png)
 
 ### Testing the block (in Monitored mode)
 
@@ -59,7 +59,7 @@ The user still can use the client but the notification keeps popping up unless t
 
 After tagging ChatGPT as Unsanctioned and waiting for enforcement, both the browser and native client are blocked:
 
-![ChatGPT blocked](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/08/UntitledImage-9.png)
+![ChatGPT blocked](/assets/img/posts/2025/08/UntitledImage-9.png)
 
 Now you can easily monitor the usage of blocked apps and use that data to educate users about the alternative AI tools you provide them. Don´t get me wrong — I think it is absolutely necessary to use AI tools and I would not just block access to tools before defining which tools to use.
 

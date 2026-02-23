@@ -4,7 +4,7 @@ date: 2025-07-11 06:46:00 +0000
 categories: [Entra ID, Identity]
 tags: [azure, entra-id, identity, governance, lifecycle, access-reviews, pim]
 image:
-  path: https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/07/A_2D_digital_diagram_depicts_Microsoft_Entra_ID_Go-2-1024x683.png
+  path: /assets/img/posts/2025/07/A_2D_digital_diagram_depicts_Microsoft_Entra_ID_Go-2-1024x683.png
 ---
 
 The time has come to write a blog about Entra ID Governance. There are a lot of cool functionalities that can help managing users and their permissions during their lifetime. This blog can be used as a guide on how to get started but Microsoft just released a really nifty "how-to" guide on implementing ID Governance: [Entra ID Governance deployment guide](https://learn.microsoft.com/en-gb/entra/architecture/governance-deployment-intro).
@@ -17,7 +17,7 @@ The core of Entra ID Governance covers three pillars:
 2. **Access Reviews** — Who should still have access?
 3. **Lifecycle Workflows** — What happens when someone joins, moves, or leaves?
 
-![Entra ID Governance Diagram](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/07/A_2D_digital_diagram_depicts_Microsoft_Entra_ID_Go-2-1024x683.png)
+![Entra ID Governance Diagram](/assets/img/posts/2025/07/A_2D_digital_diagram_depicts_Microsoft_Entra_ID_Go-2-1024x683.png)
 
 I like to think that Entitlement Management, Access Reviews, and Lifecycle Workflows all tie together, even though each one of them can technically exist without the others. However, in order to make any of these "usable" or efficient, you should have basic information about user properties in order. Fields like Department, Company, and Title are important for automating things later.
 
@@ -34,7 +34,7 @@ Access packages are more often than not a set of resources grouped together unde
 - Membership in the Marketing M365 Group
 - A specific Teams channel
 
-![Marketing access package](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/07/Monosnap-Marketing-basic-Microsoft-Azure-2025-04-29-11-46-27.png)
+![Marketing access package](/assets/img/posts/2025/07/Monosnap-Marketing-basic-Microsoft-Azure-2025-04-29-11-46-27.png)
 
 ### Access Requests
 
@@ -42,7 +42,7 @@ Let's say that you have users in sales that want to sometimes access the marketi
 
 Here I made a policy that requires one approver, the requester must provide justification, and after approval the access expires in 14 days:
 
-![Access request policy](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/07/Monosnap-Marketing-basic-Microsoft-Azure-2025-04-29-11-56-29.png)
+![Access request policy](/assets/img/posts/2025/07/Monosnap-Marketing-basic-Microsoft-Azure-2025-04-29-11-56-29.png)
 
 Users then request access via the [My Access portal](https://myaccess.microsoft.com).
 
@@ -52,7 +52,7 @@ Do you have the problem of having a new employee start and people are scrambling
 
 Think of Lifecycle Workflows as automation rulesets for different parts of employee lifecycle. You start with a template and create your custom rules to fulfill the need in your org:
 
-![Lifecycle workflow templates](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/07/lifecycle-workflows.png)
+![Lifecycle workflow templates](/assets/img/posts/2025/07/lifecycle-workflows.png)
 
 Options are limitless as there is a Custom Task Extension option which means you can run a Logic App triggered by the workflow.
 

@@ -4,7 +4,7 @@ date: 2025-03-18 08:48:00 +0000
 categories: [Azure, Identity]
 tags: [azure, entra-id, identity, security, mfa]
 image:
-  path: https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/UntitledImage.png
+  path: /assets/img/posts/2025/03/UntitledImage.png
 ---
 
 As cloud computing becomes more integrated into our daily operations, the importance of securing identities in Azure can't be overstated. Gone are the days when a strong firewall was enough to protect our networks. With cloud-native services now accessed over the internet, the key to security lies in safeguarding identities and access credentials.

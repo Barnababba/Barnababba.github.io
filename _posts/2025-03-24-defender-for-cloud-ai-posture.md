@@ -4,7 +4,7 @@ date: 2025-03-24 06:40:00 +0000
 categories: [AI, Azure, Defender]
 tags: [azure, defender-for-cloud, ai, security, llm, openai]
 image:
-  path: https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/UntitledImage-13-300x211.png
+  path: /assets/img/posts/2025/03/UntitledImage-13-300x211.png
 ---
 
 Artificial intelligence (AI) tools and Large Language Models (LLM) behind those tools have become a talking point and for some, the new Google search. The implementation to enterprises has been in progress for a while taking leaps forward with products like ChatGPT and Microsoft Copilot. The adaptation speed can be overwhelming for cybersecurity and IT.
@@ -20,13 +20,13 @@ The AI Posture Management dashboard gives you a unified view into the AI attack 
 - Recommendations for hardening AI deployments
 - Security posture score for AI resources
 
-![Dashboard for AI Posture](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/UntitledImage-22-1024x582.png)
+![Dashboard for AI Posture](/assets/img/posts/2025/03/UntitledImage-22-1024x582.png)
 
 ## AI Workload Protection
 
 AI Workload Protection monitors running AI workloads for threats and suspicious activity. After it went GA, the settings are now available:
 
-![Defender for Cloud AI settings](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/DefenderforCloudAI.png)
+![Defender for Cloud AI settings](/assets/img/posts/2025/03/DefenderforCloudAI.png)
 
 ## Testing it out
 
@@ -59,7 +59,7 @@ This gave a response as expected. Now for the interesting part — I tried to ja
 
 Jailbreaking means trying to alter the behavior of the AI to give responses that go against the programmed guidelines. You can set Prompt Shields for jailbreak attacks from the filter settings:
 
-![Filter settings](https://jerehaavis-ff148d58c9-endpoint.azureedge.net/blobjerehaavisff148d58c9/wp-content/uploads/2025/03/UntitledImage-17.png)
+![Filter settings](/assets/img/posts/2025/03/UntitledImage-17.png)
 
 ## Detection
 
