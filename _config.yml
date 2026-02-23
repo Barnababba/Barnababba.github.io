@@ -41,6 +41,9 @@ pwa:
 
 paginate: 10
 
+google_analytics:
+  id: G-S3NQQKTMDB
+
 # -----------------------------------------------
 # Advanced settings (safe to leave as-is)
 # -----------------------------------------------
