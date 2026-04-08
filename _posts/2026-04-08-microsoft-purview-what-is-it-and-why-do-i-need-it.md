@@ -99,7 +99,3 @@ I´ll continue this series with the more specific Purview areas next, because th
 
 Remember to check my other posts as well. If you want the AI security angle first, start with [Defender for Cloud: AI Posture Management & AI Workload Protection](https://jerehaavisto.com/posts/defender-for-cloud-ai-posture/). If you want the wider Microsoft security direction, [Unified Security Posture Management](https://jerehaavisto.com/posts/unified-security-posture-management/) is also worth a read.
 
-DATE
-08.04.2026
-CATEGORIES
-[PURVIEW]
