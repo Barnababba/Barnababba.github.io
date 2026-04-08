@@ -20,6 +20,47 @@ I still dabble with Intune and I´m generally interested in anything in Microsof
 
 ---
 
+## Certificates
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin: 1.5rem 0 2rem 0;">
+	<div style="text-align: center; max-width: 220px;">
+		<a href="https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/">
+			<img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main" alt="Microsoft Certified Associate badge" style="width: 160px;" />
+		</a>
+		<p><strong>SC-200</strong><br />Security Operations Analyst Associate</p>
+	</div>
+	<div style="text-align: center; max-width: 220px;">
+		<a href="https://learn.microsoft.com/en-us/credentials/certifications/information-protection-administrator/">
+			<img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main" alt="Microsoft Certified Associate badge" style="width: 160px;" />
+		</a>
+		<p><strong>SC-400</strong><br />Information Protection and Compliance Administrator Associate</p>
+	</div>
+	<div style="text-align: center; max-width: 220px;">
+		<a href="https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/">
+			<img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-expert-badge.svg?branch=main" alt="Microsoft Certified Expert badge" style="width: 160px;" />
+		</a>
+		<p><strong>SC-100</strong><br />Cybersecurity Architect Expert</p>
+	</div>
+	<div style="text-align: center; max-width: 220px;">
+		<a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/">
+			<img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main" alt="Microsoft Certified Associate badge" style="width: 160px;" />
+		</a>
+		<p><strong>AZ-500</strong><br />Azure Security Engineer Associate</p>
+	</div>
+	<div style="text-align: center; max-width: 220px;">
+		<a href="https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/">
+			<img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main" alt="Microsoft Certified Associate badge" style="width: 160px;" />
+		</a>
+		<p><strong>SC-300</strong><br />Identity and Access Administrator Associate</p>
+	</div>
+	<div style="text-align: center; max-width: 220px;">
+		<a href="https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/">
+			<img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main" alt="Microsoft Certified Fundamentals badge" style="width: 160px;" />
+		</a>
+		<p><strong>SC-900</strong><br />Security, Compliance, and Identity Fundamentals</p>
+	</div>
+</div>
+
 ## Applied Skills
 
 - **Microsoft Applied Skills:** Implement retention, eDiscovery, and Communication Compliance in Microsoft Purview

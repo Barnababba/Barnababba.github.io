@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Purview: What Is It and Why Do I Need It?"
-date: 2026-04-08 12:00:00 +0200
+date: 2026-04-08 00:00:00 +0200
 categories: [Purview]
 tags: [microsoft-purview, data-security, data-governance, compliance, ai]
 image:
