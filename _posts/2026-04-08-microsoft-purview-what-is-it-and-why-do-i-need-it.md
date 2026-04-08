@@ -22,9 +22,9 @@ If you are in the same boat, this post is the first one in my Purview series and
 - [What I think matters most right now](#what-i-think-matters-most-right-now)
 - [Conclusion](#conclusion)
 
-Microsoft has started positioning Purview as a unified platform for data security, compliance, and governance in the era of AI. Microsoft [documentation](https://learn.microsoft.com/purview/purview) says that Purview helps organizations govern, protect, and manage data wherever it lives. That sounds nice but in real life what it usually means is this: your data is spread all over Microsoft 365, SaaS apps, endpoints, AI prompts, mailboxes, Teams chats and random locations people forgot even existed. Purview is Microsoft's answer to that mess.
+Microsoft has started positioning Purview as a unified platform for data security, compliance, and governance in the era of AI. Microsoft [documentation](https://learn.microsoft.com/purview/purview){:target="_blank"} says that Purview helps organizations govern, protect, and manage data wherever it lives. That sounds nice but in real life what it usually means is this: your data is spread all over Microsoft 365, SaaS apps, endpoints, AI prompts, mailboxes, Teams chats and random locations people forgot even existed. Purview is Microsoft's answer to that mess.
 
-### WHY PURVIEW EVEN EXISTS
+### Why Purview even exists
 
 The reason Purview exists is actually quite simple. Traditional security thinking has focused a lot on users, endpoints, identities, and network boundaries. All of that still matters, off course, but the data itself has become the bigger problem. If sensitive data is overshared, unlabeled, copied to the wrong place, dropped into an AI prompt, or hanging around in old locations nobody is monitoring, then having a strong identity stack alone is not enough.
 
@@ -32,17 +32,17 @@ That is why I think Purview matters. It is supposed to help you understand what 
 
 This is also why Purview connects quite naturally with topics I have already written about, like [Defender for Cloud AI Posture Management & AI Workload Protection](https://jerehaavisto.com/posts/defender-for-cloud-ai-posture/) and [Unified Security Posture Management](https://jerehaavisto.com/posts/unified-security-posture-management/). One protects workloads and posture, the other tries to unify visibility, and Purview comes into the picture when the question becomes: what about the data itself?
 
-### WHY THE PRODUCT FEELS CONFUSING
+### Why the product feels confusing
 
 I think Purview feels confusing for three reasons.
 
-First, it covers several different problem areas at once. Microsoft [documentation on data security, compliance, and governance](https://learn.microsoft.com/purview/developer/data-security-concepts) splits the discussion into those three buckets, and that is already a hint that this is not one neat product with one neat purpose.
+First, it covers several different problem areas at once. Microsoft [documentation on data security, compliance, and governance](https://learn.microsoft.com/purview/developer/data-security-concepts){:target="_blank"} splits the discussion into those three buckets, and that is already a hint that this is not one neat product with one neat purpose.
 
 Second, Purview overlaps with other Microsoft products just enough to make people unsure where to look first. Defender talks about risk, exposure, and incidents. Entra talks about access and identity. Microsoft 365 talks about collaboration and productivity. Purview then shows up and says it handles labels, DLP, retention, eDiscovery, insider risk, governance, audit, AI protections, and more. At that point the normal reaction is not excitement. It is usually "okay, so what do I actually need from all of this?"
 
 Third, licensing gets messy quickly. I have Business Premium in my own test tenant and I noticed very fast that Purview is not just a yes-or-no product. You get some functionality, then more with add-ons, more with E3, then more with E5 level licensing, and then some governance or browser-related scenarios still want Azure billing or other dependencies on top. I´ll probably do a separate post about licensing because that rabbit hole deserves its own flashlight.
 
-### HOW I THINK ABOUT THE PLATFORM
+### How I think about the platform
 
 The easiest way I have found to think about Purview is not by memorizing every portal blade. I think about it in three main buckets.
 
@@ -56,13 +56,13 @@ This is where audit, eDiscovery, lifecycle management, records, and policy-drive
 
 #### 3. Data governance
 
-This is the side that many security-focused people know less about. Microsoft [data governance documentation](https://learn.microsoft.com/purview/data-governance-overview) explains this through Data Map and Unified Catalog. Here the focus is less about blocking bad things and more about visibility, trust, ownership, lineage, quality, and making data usable without turning it into chaos.
+This is the side that many security-focused people know less about. Microsoft [data governance documentation](https://learn.microsoft.com/purview/data-governance-overview){:target="_blank"} explains this through Data Map and Unified Catalog. Here the focus is less about blocking bad things and more about visibility, trust, ownership, lineage, quality, and making data usable without turning it into chaos.
 
 That is also why Purview is not just a compliance product and not just a security product. It sits awkwardly in the middle of several important things, which is probably why it can feel a bit like Microsoft built three discussions and put them behind one name.
 
 ![Overview diagram showing the main solution areas in Microsoft Purview](/assets/img/posts/2026/04/SCR-20260408-kyve.png)
 
-### WHERE I WOULD START IN A TEST TENANT
+### Where I would start in a test tenant
 
 If I was starting from zero in a test tenant today, I would not try to turn on every Purview capability at once. That is a very efficient way to get confused and then annoyed.
 
@@ -75,19 +75,19 @@ I would start with these questions:
 
 Minimal licensing setup that gets pretty much all of the features is M365 Business Premium + Purview Suite combo. At least that is what I´m using in my test tenant. Free options to try things out limits out to trial that can be activated from Purview portal.
 
-I also think it is worth checking the portal structure early. Microsoft's [Purview portal guidance](https://learn.microsoft.com/purview/purview) makes it clear that Microsoft wants this to feel like one unified place for data security, compliance, and governance. Whether it feels unified on day one is another discussion, but that is the intended direction.
+I also think it is worth checking the portal structure early. Microsoft's [Purview portal guidance](https://learn.microsoft.com/purview/purview){:target="_blank"} makes it clear that Microsoft wants this to feel like one unified place for data security, compliance, and governance. Whether it feels unified on day one is another discussion, but that is the intended direction.
 
-### WHAT I THINK MATTERS MOST RIGHT NOW
+### What I think matters most right now
 
 The reason I wanted this post to come first in the series is that Purview becomes much easier to understand once you stop asking "which button does what?" and start asking "what problem am I actually trying to solve?"
 
-*Right now I think the biggest practical driver is AI. Not because AI magically changed every security principle we know, but because it increased the speed and blast radius of bad data practices. If data is overshared, badly labeled, poorly governed, or sitting in places where nobody understands the permissions, AI tends to make that more visible and more dangerous.*
+**Right now I think the biggest practical driver is AI. Not because AI magically changed every security principle we know, but because it increased the speed and blast radius of bad data practices. If data is overshared, badly labeled, poorly governed, or sitting in places where nobody understands the permissions, AI tends to make that more visible and more dangerous.**
 
 That is why Purview matters even before you become a Purview expert. You do not need to master the entire platform on day one to understand the basic point: if you want to use AI safely, you need to understand your data better than many organizations currently do.
 
 This also connects quite naturally with [Securing Azure Identities](https://jerehaavisto.com/posts/securing-azure-identities/). Strong identity controls are still critical, but identities alone do not solve data sprawl, oversharing, or compliance headaches. You need both.
 
-### CONCLUSION
+### Conclusion
 
 Microsoft Purview is not a small feature and it is definitely not the kind of product you understand by reading one marketing paragraph and moving on. It sits between data security, compliance, governance, and now increasingly AI controls as well. That is also exactly why it matters.
 
