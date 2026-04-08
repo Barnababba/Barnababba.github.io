@@ -60,7 +60,7 @@ This is the side that many security-focused people know less about. Microsoft [d
 
 That is also why Purview is not just a compliance product and not just a security product. It sits awkwardly in the middle of several important things, which is probably why it can feel a bit like Microsoft built three discussions and put them behind one name.
 
-![Placeholder screenshot showing the main solution areas in Microsoft Purview](/assets/img/posts/2026/04/SCR-20260408-kyve.png)
+![Overview diagram showing the main solution areas in Microsoft Purview](/assets/img/posts/2026/04/SCR-20260408-kyve.png)
 
 ### WHERE I WOULD START IN A TEST TENANT
 
