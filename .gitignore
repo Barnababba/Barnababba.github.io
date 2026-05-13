@@ -5,6 +5,7 @@ _site/
 _drafts/
 .github/
 .authoring/
+.authoring/purview-blog-series-plan.md
 *.draft.md
 *.internal.md
 *.private.md
