@@ -3,6 +3,11 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 _drafts/
+.github/
+.authoring/
+*.draft.md
+*.internal.md
+*.private.md
 vendor/
 .bundle/
 Gemfile.lock

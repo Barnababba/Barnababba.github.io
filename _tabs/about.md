@@ -12,9 +12,9 @@ order: 4
 
 Hello all! My name is Jere Haavisto and this is my blog, as you can probably see from the creative naming of the site. The purpose of this site is to be a platform where I can share Microsoft Security related research and stuff.
 
-I currently work as a Senior Security Consultant @ [Zure](https://www.zure.com/). My IT journey started professionally in 2017 when I started as an administrator doing Microsoft 365 and Intune. I gradually picked up cybersecurity along the way and now that is the stuff I do full time.
+I currently work as a Development Manager at [LähiTapiola](https://www.lahitapiola.fi).  My IT journey started professionally in 2017 when I started as an administrator doing Microsoft 365 and Intune. I gradually picked up cybersecurity along the way and now that is the stuff I do full time. After a few years in consulting I now came back to inhouse work to focus on building Microsoft Purview to it´s fullest capability at LähiTapiola.
 
-I still dabble with Intune and I´m generally interested in anything in Microsoft Security & Compliance.
+I still dabble with Intune, Microsoft 365, Azure infrastructure and I´m generally interested in anything in Microsoft Security & Compliance.
 
 [LinkedIn](https://www.linkedin.com/in/jerehaavisto/) &nbsp;·&nbsp; [Instagram](https://www.instagram.com/haavistojere/)
 
