@@ -4,7 +4,7 @@ date: 2026-05-18 00:00:00 +0000
 categories: [Purview]
 tags: [microsoft-purview, purview-implementation, data-governance, information-protection, compliance]
 image:
-	path: /assets/img/posts/2026/05/purview-part0.png
+  path: /assets/img/posts/2026/05/purview-part0.png
 ---
 
 If you are planning a Microsoft Purview implementation, do not start in the portal. Most Purview projects do not fail because someone missed a setting in the portal. They fail because the organization starts the technical work before it has decided what Purview is supposed to do, who owns the decisions, and which business problems matter first. By "do not start in the portal", I do not mean the technical side is irrelevant. I mean the technical capabilities should guide the preparation, not replace it.
