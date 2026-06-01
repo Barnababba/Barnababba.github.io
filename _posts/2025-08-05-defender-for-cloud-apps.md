@@ -3,6 +3,7 @@ title: "Defender for Cloud Apps: Do You Know What SaaS Apps Are Being Used in th
 date: 2025-08-05 10:28:00 +0000
 categories: [AI, Defender, Endpoints]
 tags: [defender, cloud-apps, saas, shadow-it, casb, security, policy]
+author: "Jere Haavisto"
 image:
   path: /assets/img/posts/2025/08/UntitledImage.png
 ---

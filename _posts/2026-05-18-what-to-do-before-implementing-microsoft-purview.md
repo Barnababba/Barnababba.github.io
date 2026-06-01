@@ -3,6 +3,7 @@ title: "Microsoft Purview Implementation, Part 0: What to Do Before the Technica
 date: 2026-05-18 00:00:00 +0000
 categories: [Purview]
 tags: [microsoft-purview, purview-implementation, data-governance, information-protection, compliance]
+author: "Jere Haavisto"
 image:
   path: /assets/img/posts/2026/05/purview-part0.png
 ---

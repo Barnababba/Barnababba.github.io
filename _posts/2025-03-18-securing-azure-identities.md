@@ -3,6 +3,7 @@ title: "Securing Azure Identities: The \"New\" Perimeter in Cybersecurity"
 date: 2025-03-18 08:48:00 +0000
 categories: [Azure, Identity]
 tags: [azure, entra-id, identity, security, mfa]
+author: "Jere Haavisto"
 image:
   path: /assets/img/posts/2025/03/UntitledImage.png
 ---

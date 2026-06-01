@@ -3,6 +3,7 @@ title: "Secure Access to Azure VMs with Bastion and Phishing Resistant MFA"
 date: 2025-11-04 10:58:00 +0000
 categories: [Azure, Entra ID, Networks]
 tags: [azure, bastion, mfa, phishing-resistant, conditional-access, network, vm]
+author: "Jere Haavisto"
 image:
   path: /assets/img/posts/2025/10/UntitledImage-1-1024x680.png
 ---

@@ -3,6 +3,7 @@ title: "Defender for Cloud: AI Posture Management & AI Workload Protection"
 date: 2025-03-24 06:40:00 +0000
 categories: [AI, Azure, Defender]
 tags: [azure, defender-for-cloud, ai, security, llm, openai]
+author: "Jere Haavisto"
 image:
   path: /assets/img/posts/2025/03/UntitledImage-13-300x211.png
 ---

@@ -3,6 +3,7 @@ title: "Entra ID Governance Deep Dive"
 date: 2025-07-11 06:46:00 +0000
 categories: [Entra ID, Identity]
 tags: [azure, entra-id, identity, governance, lifecycle, access-reviews, pim]
+author: "Jere Haavisto"
 image:
   path: /assets/img/posts/2025/07/A_2D_digital_diagram_depicts_Microsoft_Entra_ID_Go-2-1024x683.png
 ---
