@@ -8,6 +8,8 @@ image:
   path: /assets/img/posts/2026/06/purview-sen.png
 ---
 
+I have spent the last few days on banging my head against the wall with Sensitivity Lables. I´ve searched and searched for aid to my problems without any luck. Seriously, there has been some long days and in the end the fix was simple but easily overlooked. I wanted to share my pain if someone is in the same situation.
+
 If sensitivity labels work in Office for the web, iOS, and Teams on Windows, but do not show up in Word or Outlook on Windows, the problem is usually not the label itself. In most cases, the break is in one of these places:
 
 - The user has a qualifying Microsoft 365 SKU, but the required sensitivity labeling service plan inside that license is disabled.
