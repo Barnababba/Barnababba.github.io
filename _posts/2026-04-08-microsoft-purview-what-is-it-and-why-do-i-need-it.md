@@ -31,7 +31,7 @@ The reason Purview exists is actually quite simple. Traditional security thinkin
 
 That is why I think Purview matters. It is supposed to help you understand what data you have, where it is, how sensitive it is, who is using it, and what controls should follow it. That puts it in a different place than products that focus more directly on endpoint detection or identity governance. It also means Purview gets pulled into a lot of discussions now that organizations want to use AI without leaking the whole kingdom to the first overly curious prompt.
 
-This is also why Purview connects quite naturally with topics I have already written about, like [Defender for Cloud AI Posture Management & AI Workload Protection](https://jerehaavisto.com/posts/defender-for-cloud-ai-posture/) and [Unified Security Posture Management](https://jerehaavisto.com/posts/unified-security-posture-management/). One protects workloads and posture, the other tries to unify visibility, and Purview comes into the picture when the question becomes: what about the data itself?
+This is also why Purview connects quite naturally with topics I have already written about, like [Defender for Cloud AI Posture Management & AI Workload Protection](https://jerehaavisto.com/ai/azure/defender/2025/03/24/defender-for-cloud-ai-posture.html) and [Unified Security Posture Management](https://jerehaavisto.com/azure/defender/2025/12/02/unified-security-posture-management.html). One protects workloads and posture, the other tries to unify visibility, and Purview comes into the picture when the question becomes: what about the data itself?
 
 ### Why the product feels confusing
 
@@ -86,7 +86,7 @@ The reason I wanted this post to come first in the series is that Purview become
 
 That is why Purview matters even before you become a Purview expert. You do not need to master the entire platform on day one to understand the basic point: if you want to use AI safely, you need to understand your data better than many organizations currently do.
 
-This also connects quite naturally with [Securing Azure Identities](https://jerehaavisto.com/posts/securing-azure-identities/). Strong identity controls are still critical, but identities alone do not solve data sprawl, oversharing, or compliance headaches. You need both.
+This also connects quite naturally with [Securing Azure Identities](https://jerehaavisto.com/azure/identity/2025/03/18/securing-azure-identities.html). Strong identity controls are still critical, but identities alone do not solve data sprawl, oversharing, or compliance headaches. You need both.
 
 ### Conclusion
 
@@ -98,5 +98,5 @@ I think the product is still a bit messy to explain, and licensing does not exac
 
 I´ll continue this series with the more specific Purview areas next, because this post is intentionally high level. The next logical step is the data security angle in the era of AI, and after that I want to go deeper into labels, DLP, and the parts that are actually possible to test without needing a microscope and a licensing spreadsheet. It´s also important to note that legislation might provide it´s own hurdles to the implementation of compliance solutions in each country. I´ll be doing a post about Finnish legislation and thinking through how it affects Purview usage here.
 
-Remember to check my other posts as well. If you want the AI security angle first, start with [Defender for Cloud: AI Posture Management & AI Workload Protection](https://jerehaavisto.com/posts/defender-for-cloud-ai-posture/). If you want the wider Microsoft security direction, [Unified Security Posture Management](https://jerehaavisto.com/posts/unified-security-posture-management/) is also worth a read.
+Remember to check my other posts as well. If you want the AI security angle first, start with [Defender for Cloud: AI Posture Management & AI Workload Protection](https://jerehaavisto.com/ai/azure/defender/2025/03/24/defender-for-cloud-ai-posture.html). If you want the wider Microsoft security direction, [Unified Security Posture Management](https://jerehaavisto.com/azure/defender/2025/12/02/unified-security-posture-management.html) is also worth a read.
 

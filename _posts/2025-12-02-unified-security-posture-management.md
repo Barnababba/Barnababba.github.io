@@ -42,4 +42,4 @@ This was a short post compared to many I've written but I think that not all of 
 
 ---
 
-Checkout my other posts: [Blogs](/archives)
+Checkout my other posts: [Blogs](https://jerehaavisto.com/archives/)

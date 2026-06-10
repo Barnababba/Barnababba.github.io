@@ -61,4 +61,4 @@ Identity is the new perimeter, and securing it is our best chance to stay ahead 
 
 ---
 
-Check my post about securing PaaS resources: [Securing Azure PaaS Resources With Network Security Perimeter](/posts/securing-azure-paas-resources)
+Check my post about securing PaaS resources: [Securing Azure PaaS Resources With Network Security Perimeter](https://jerehaavisto.com/azure/networks/2025/03/19/securing-azure-paas-resources.html)

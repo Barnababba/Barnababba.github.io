@@ -20,7 +20,7 @@ If sensitivity labels work in Office for the web, iOS, and Teams on Windows, but
 
 Microsoft's own troubleshooting guidance points to the same checks: subscription activation, supported Office version, published label policy, built-in labeling enabled, and a healthy CLP cache. That is the normal path and it solves most cases.
 
-If you are earlier in your Purview journey, start with [Microsoft Purview: What Is It and Why Do I Need It?](/posts/microsoft-purview-what-is-it-and-why-do-i-need-it/) for the platform view, [Microsoft Purview Implementation, Part 0: What to Do Before the Technical Work Starts](/posts/what-to-do-before-implementing-microsoft-purview/) for the groundwork, and [Microsoft Purview Sensitivity Labels, Part 1: How to Get Started and Reach a Fully Labeled Environment](/posts/purview-sensitivity-labels-getting-started/) for the label design basics.
+If you are earlier in your Purview journey, start with [Microsoft Purview: What Is It and Why Do I Need It?](https://jerehaavisto.com/purview/2026/04/08/microsoft-purview-what-is-it-and-why-do-i-need-it.html){:target="_blank"} for the platform view, [Microsoft Purview Implementation, Part 0: What to Do Before the Technical Work Starts](https://jerehaavisto.com/purview/2026/05/18/what-to-do-before-implementing-microsoft-purview.html){:target="_blank"} for the groundwork, and [Microsoft Purview Sensitivity Labels, Part 1: How to Get Started and Reach a Fully Labeled Environment](https://jerehaavisto.com/purview/2026/05/27/purview-sensitivity-labels-getting-started.html){:target="_blank"} for the label design basics.
 
 My case did not follow the normal path.
 
@@ -423,6 +423,6 @@ If labels already work in web and mobile, resist the urge to keep redesigning yo
 
 That was the gap in my case. Purview was not broken, and the E5 SKU by itself was not enough evidence. The missing piece was that only Information Protection Premium was enabled, so Word treated manual labeling as unlicensed.
 
-If you are still building your label model, go back to [Microsoft Purview Sensitivity Labels, Part 1: How to Get Started and Reach a Fully Labeled Environment](/posts/purview-sensitivity-labels-getting-started/). If you are still deciding whether your organization is even ready for Purview implementation work, read [Microsoft Purview Implementation, Part 0: What to Do Before the Technical Work Starts](/posts/what-to-do-before-implementing-microsoft-purview/).
+If you are still building your label model, go back to [Microsoft Purview Sensitivity Labels, Part 1: How to Get Started and Reach a Fully Labeled Environment](https://jerehaavisto.com/purview/2026/05/27/purview-sensitivity-labels-getting-started.html). If you are still deciding whether your organization is even ready for Purview implementation work, read [Microsoft Purview Implementation, Part 0: What to Do Before the Technical Work Starts](https://jerehaavisto.com/purview/2026/05/18/what-to-do-before-implementing-microsoft-purview.html).
 
 This process was educational on how the labels work, how they are applied, and what affects them. I hope it helps someone else troubleshoot labels in their own environment.

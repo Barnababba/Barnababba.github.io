@@ -62,4 +62,4 @@ The combination of Networks and NSGs, RBAC, and Conditional Access leaves a lot 
 
 ---
 
-Check out my post about securing identities: [Securing Azure Identities: The "New" Perimeter in Cybersecurity](/posts/securing-azure-identities)
+Check out my post about securing identities: [Securing Azure Identities: The "New" Perimeter in Cybersecurity](https://jerehaavisto.com/azure/identity/2025/03/18/securing-azure-identities.html)

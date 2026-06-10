@@ -66,4 +66,4 @@ Key use cases:
 
 Whoa. This was a wall of text and took a while to create as pre-summer is quite busy as a consultant. I hope that you got some ideas from this! Please don´t hesitate to contact me if you need help with Entra ID Governance.
 
-Remember to check my other posts as well: [Blogs](/archives)
+Remember to check my other posts as well: [Blogs](https://jerehaavisto.com/archives/)

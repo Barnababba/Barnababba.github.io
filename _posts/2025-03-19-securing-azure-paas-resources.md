@@ -76,4 +76,4 @@ The network security perimeter is sort of a silver bullet for PaaS resources. It
 
 ---
 
-Make sure to check my previous post about Azure identities: [Securing Azure Identities: The "New" Perimeter in Cybersecurity](/posts/securing-azure-identities)
+Make sure to check my previous post about Azure identities: [Securing Azure Identities: The "New" Perimeter in Cybersecurity](https://jerehaavisto.com/azure/identity/2025/03/18/securing-azure-identities.html)

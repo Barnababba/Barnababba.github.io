@@ -74,4 +74,4 @@ I'll continue testing and update if my tech skills allow me to generate more int
 
 ---
 
-Remember to check my other posts as well. There is a good one about Identities: [Azure Identities](/posts/securing-azure-identities)
+Remember to check my other posts as well. There is a good one about Identities: [Azure Identities](https://jerehaavisto.com/azure/identity/2025/03/18/securing-azure-identities.html)

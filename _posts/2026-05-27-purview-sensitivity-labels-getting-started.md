@@ -266,6 +266,6 @@ I think the key is to start smaller than your instincts might tell you, then mat
 
 That is how you get closer to a fully labeled environment without turning the whole thing into a painful compliance theater exercise.
 
-If you are still trying to get your head around Purview more broadly, start with my earlier post [Microsoft Purview: What Is It and Why Do I Need It?](/posts/microsoft-purview-what-is-it-and-why-do-i-need-it/). It gives the wider context for why labels matter in the first place.
+If you are still trying to get your head around Purview more broadly, start with my earlier post [Microsoft Purview: What Is It and Why Do I Need It?](https://jerehaavisto.com/purview/2026/04/08/microsoft-purview-what-is-it-and-why-do-i-need-it.html). It gives the wider context for why labels matter in the first place.
 
 If you want the implementation path before labels, start with the pre-implementation post in this series. The next logical step after labels is DLP, because that is where classification starts turning into enforcement.
