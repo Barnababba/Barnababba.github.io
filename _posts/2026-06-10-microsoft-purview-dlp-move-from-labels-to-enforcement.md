@@ -200,7 +200,7 @@ Again the similar story to Fabric and Copilot. You can restrict what data can be
 
 ## Common mistakes
 
-I think most first-wave DLP rollouts run into the same traps.
+There are a few things that is good to take into consideration when working with DLPs. This is the first step that really has impact on users after all.
 
 ### DLP gets built before the label model is usable
 
