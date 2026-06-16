@@ -3,7 +3,7 @@ title: "Microsoft Purview DLP, Part 2: How to Move from Labels to Enforcement"
 date: 2026-06-10 00:00:00 +0000
 categories: [Purview]
 tags: [microsoft-purview, dlp, data-loss-prevention, sensitivity-labels, microsoft-365, purview-implementation]
-author: Jere Haavisto
+author: jere
 image:
   path: /assets/img/posts/2026/06/purview-dlp.png
 ---

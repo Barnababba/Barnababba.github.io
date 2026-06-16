@@ -3,7 +3,7 @@ title: "Unified Security Posture Management"
 date: 2025-12-02 14:31:00 +0000
 categories: [Azure, Defender]
 tags: [azure, defender-xdr, defender, security-posture, cspm, secure-score, ignite]
-author: Jere Haavisto
+author: jere
 image:
   path: /assets/img/posts/2025/12/UntitledImage.png
 ---
