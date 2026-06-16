@@ -3,7 +3,7 @@ title: "Purview Sensitivity Labels - Definitive troubleshooting guide"
 date: 2026-06-01 00:00:00 +0000
 categories: [Purview]
 tags: [microsoft-purview, sensitivity-labels, information-protection, data-security, microsoft-365, purview-implementation]
-author: "Jere Haavisto"
+author: Jere Haavisto
 image:
   path: /assets/img/posts/2026/06/purview-sen.png
 ---

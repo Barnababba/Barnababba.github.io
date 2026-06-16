@@ -3,7 +3,7 @@ title: "Microsoft Purview: What Is It and Why Do I Need It?"
 date: 2026-04-08 00:00:00 +0200
 categories: [Purview]
 tags: [microsoft-purview, data-security, data-governance, compliance, ai]
-author: "Jere Haavisto"
+author: Jere Haavisto
 image:
   path: /assets/img/posts/2026/04/purview-overview-hero.png
 ---

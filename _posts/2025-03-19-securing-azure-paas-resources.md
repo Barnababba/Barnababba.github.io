@@ -3,7 +3,7 @@ title: "Securing Azure PaaS Resources With Network Security Perimeter"
 date: 2025-03-19 06:55:00 +0000
 categories: [Azure, Networks]
 tags: [azure, network, paas, security, nsp, key-vault, storage]
-author: "Jere Haavisto"
+author: Jere Haavisto
 image:
   path: /assets/img/posts/2025/03/Picture1.png
 ---

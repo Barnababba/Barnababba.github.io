@@ -3,7 +3,7 @@ title: "Microsoft Purview Sensitivity Labels, Part 1: How to Get Started and Rea
 date: 2026-05-27 00:00:00 +0000
 categories: [Purview]
 tags: [microsoft-purview, sensitivity-labels, information-protection, data-security, microsoft-365, purview-implementation]
-author: "Jere Haavisto"
+author: Jere Haavisto
 image:
   path: /assets/img/posts/2026/05/purview-part1.png
 ---
