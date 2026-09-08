@@ -10,7 +10,7 @@ image:
 
 Retention is one of those Microsoft Purview topics that gets less attention than labels or DLP until the day someone asks how long a document should exist, whether it can be deleted, or whether legal needs it preserved. I also feel like a lot of organizations are in a sort of hoarder mode and they just keep everything for the end of time. This does not only make things incredibly difficult to find but in todays world is also illegal since GDPR enforces for only storing personal data for specific purpose. Once that purpose is done, the data should be anonymized or deleted.
 
-That is when the conversation becomes much less theoretical.
+This is also kinda the starting point from which many converstations start the interest towards Purview. "We have a ton of files in SharePoint and no one knows are they used or should they be deleted".
 
 This post is Part 3 of my practical Microsoft Purview implementation series. By this point, I am assuming the groundwork is in place, labels exist or are on the way, and DLP is no longer just a future slide in somebody's PowerPoint. If they are not, check my previous posts about [Labels](https://jerehaavisto.com/purview/2026/05/27/purview-sensitivity-labels-getting-started.html) or [DLP](https://jerehaavisto.com/purview/2026/06/10/microsoft-purview-dlp-move-from-labels-to-enforcement.html). The next question is lifecycle: what needs to be kept, what should be deleted, and what has to be treated as a record.
 
